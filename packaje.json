@@ -1,0 +1,17 @@
+{
+  "name": "smartsystem",
+  "version": "3.0.0",
+  "description": "SmartSystem - Gestão Inteligente Completa",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1"
+  }
+}
