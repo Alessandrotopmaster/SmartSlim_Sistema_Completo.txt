@@ -1,0 +1,74 @@
+
+---
+
+## 📄 **ARQUIVO 3: `css/smartsystem.css`**
+
+```css
+:root {
+    --azul: #0A2463;
+    --laranja: #E63946;
+    --verde: #2A9D8F;
+    --branco: #FFFFFF;
+    --cinza-claro: #F1F5F9;
+    --cinza-medio: #64748B;
+    --preto: #1E293B;
+    --amarelo: #FFD700;
+    --roxo: #7C3AED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: var(--cinza-claro);
+    color: var(--preto);
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background: var(--azul);
+    color: var(--branco);
+}
+
+.btn-success {
+    background: var(--verde);
+    color: var(--branco);
+}
+
+.btn-danger {
+    background: var(--laranja);
+    color: var(--branco);
+}
+
+.card {
+    background: var(--branco);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.text-center { text-align: center; }
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.mb-1 { margin-bottom: 10px; }
+.mb-2 { margin-bottom: 20px; }
